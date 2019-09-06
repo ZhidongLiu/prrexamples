@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 import rospy
-from rosbook.msg import Complex
+from prrexamples.msg import Complex
 
 def callback(msg):
     print 'Real:', msg.real
